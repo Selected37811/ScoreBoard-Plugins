@@ -1,0 +1,14 @@
+name: Core
+author: Selected3781
+main: Core\Main
+version: 1.0.0-DEV
+api: 5.0.0
+commands:
+  refreshscoreboards:
+    description: Rafraîchir les scoreboards de tous les joueurs
+    usage: "/refreshscoreboards"
+    aliases: [rsb, refreshsb]
+    permission: Player.use
+permissions:
+  Player.use:
+    default: true
